@@ -1,0 +1,23 @@
+# Modelos grandes: no subir
+models/
+*.gguf
+*.safetensors
+*.bin
+*.onnx
+*.onnx_data*
+*.pth
+*.ckpt
+
+# Entornos y cache
+venv/
+__pycache__/
+*.pyc
+
+# Binarios y librerias
+llama-vulkan-bin/
+*.tar.gz
+
+# Logs y config local
+*.log
+.config/
+
